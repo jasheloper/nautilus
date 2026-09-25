@@ -182,8 +182,8 @@ main h2 {
 main p {
   font-size: 1.1rem;
   margin-left: 7px;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 main ul {
   padding-left: 31px;
