@@ -177,8 +177,27 @@ background-image: url('images/Honest_Digital_Assessment_Mobile.jpg');
 text-align: center;
 max-height: 900px;
 }
+.top-heading {
+    font-size: 0.7rem;
+}
 .heading-content {
 padding: 40px;
+}
+.vehicle-intro {
+display: block;
+}
+.vehicle-trim {
+    display: block;
+    margin-top: 0.1px;
+}
+.lease-details {
+    gap: 0;
+}
+.monthly-payment-label,
+.lease-term-label,
+.down-payment-label {
+font-size: 0.7rem;
+letter-spacing: normal;
 }
 .header-links {
 flex-direction: column;
