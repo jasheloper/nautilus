@@ -7,7 +7,8 @@ const offerDetails = document.querySelector('.offer-details');
 const offerModal = document.querySelector('.offer-modal');
 const offerModalClose = document.querySelector('.offer-modal-close');
 
-offerDetails.addEventListener('click', () => {
+offerDetails.addEventListener('click', (e) => {
+e.preventDefault();
 offerModal.style.display = "block";
 });
 
