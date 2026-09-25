@@ -195,6 +195,7 @@ display: block;
 }
 .lease-details {
     gap: 0;
+       justify-content: center;
 }
 .monthly-payment-label,
 .lease-term-label,
@@ -207,11 +208,13 @@ flex-direction: column;
 align-items: center;
 margin-top: 260px;
 }
-.lease-details {
-   justify-content: center;
+.inventory-cta,
+.contact-cta {
+width: 320px;
+padding: 18px;
 }
 .offer-details { 
-margin-right: 140px;
+margin-left: -240px;
 width: 100%;
 }
 main {
