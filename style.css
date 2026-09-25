@@ -17,8 +17,6 @@ font-display: swap;
 /*General Styles*/
 body {
 font-family: 'Lincoln Proxima Nova Regular', Arial, sans-serif;
-/* font-family: 'Inter'; */
-/* font-family: 'Inter', Arial, sans-serif; */
 }
 h2 {
 text-transform: uppercase;
@@ -37,7 +35,6 @@ background-size: cover;
 background-position-x: center;
 background-position-y: 60%;
 }
-
 .top-heading {
 font-family: 'Lincoln Proxima Nova Semibold', Arial, sans-serif;
 font-size: 0.8rem;
@@ -47,14 +44,12 @@ text-transform: uppercase;
 background-color: #efefef;
 padding: 12px 8px;
 }
-
 .heading-content {
 padding-top: 70px;
 padding-left: 90px;
 color: #ffffff;
 letter-spacing: 1px;
 }
-
 /*Vehicle Data Styles*/
 .vehicle-intro {
     font-family: 'Lincoln Proxima Nova Semibold', Arial, sans-serif;
@@ -70,14 +65,12 @@ display: inline-block;
 font-size: 1.1rem;
 margin-top: 5px;
 }
-
 /*Lease Data Styles*/
 .lease-label {
 display: inline-block;
 margin-top: 10px;
 margin-bottom: 25px;
 font-size: 1.4rem;
-
 }
 .lease-details {
 display: flex;
@@ -93,7 +86,6 @@ text-align: center;
 padding-right: 15px;
 font-weight: bold;
 }
-
 .lease-term, 
 .down-payment {
 padding-left: 15px;
@@ -104,7 +96,6 @@ border-left: 1px solid #ffffff;
 .down-payment-label {
 font-size: 0.8rem;
 }
-
 /*Header Link Styles*/
 .header-links {
 display: flex;
@@ -142,6 +133,7 @@ text-transform: uppercase;
 text-decoration: none;
 border-bottom: 2px solid #f36049;
 }
+/*Modal Styles*/
 .offer-modal {
 display: none;
 position: fixed;
@@ -167,7 +159,7 @@ letter-spacing: 1px;
 background-color: #ffffff;
 border: 1px solid #000000;
 }
-/**Main Content**/
+/**Main Content Styles**/
 main {
 color: #323232;
 padding-top: 27px;
@@ -184,7 +176,6 @@ margin-bottom: 0;
 margin-top: 30px;
 letter-spacing: 1px;
 }
-
 main p {
 font-size: 1.1rem;
 margin-left: 7px;
@@ -201,9 +192,11 @@ color: #323232;
 }
 /**Mobile Styles**/
 @media (max-width: 768px) {
+/**Mobile General Styles**/
 .container {
 padding-bottom: 10px;
 }
+/**Mobile Heading Styles**/
 .main-heading {
 background-image: url('images/Honest_Digital_Assessment_Mobile.jpg');
 max-height: 1200px;
@@ -216,6 +209,7 @@ font-size: 0.7rem;
 .heading-content {
 padding: 40px;
 }
+/*Mobile Vehicle Data Styles*/
 .vehicle-intro {
 display: block;
 }
@@ -247,6 +241,7 @@ padding: 18px;
 margin-left: -240px;
 width: 100%;
 }
+/*Mobile Modal Styles*/
 .offer-modal {
 top: 37%;
 left: 7%;
@@ -254,6 +249,7 @@ left: 7%;
 .offer-modal-content {
     text-align: left;
 }
+/**Mobile Main Content Styles**/
 main {
 padding: 1rem;
 }
