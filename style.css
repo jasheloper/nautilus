@@ -139,6 +139,32 @@ text-transform: uppercase;
 text-decoration: none;
 border-bottom: 2px solid #f36049;
 }
+.offer-modal {
+display: none;
+position: absolute;
+top: 200px;
+left: 600px;
+width: 300px;
+padding: 20px;
+border: 1px solid #3b3532;
+color: #efefef;
+background-color: #000000;
+opacity: 93%;
+}
+.offer-modal ul {
+    line-height: 2;
+}
+.offer-modal button {
+    margin: 0 auto;
+text-transform: uppercase;
+padding: 11px;
+width: 100%;
+text-align: center;
+font-weight: bold;
+letter-spacing: 1px;
+background-color: #ffffff;
+border: 1px solid #000000;
+}
 /**Main Content**/
 main {
 color: #323232;
@@ -216,6 +242,10 @@ padding: 18px;
 .offer-details { 
 margin-left: -240px;
 width: 100%;
+}
+.offer-modal {
+top: 480px;
+left: 110px;
 }
 main {
 padding: 1rem;
