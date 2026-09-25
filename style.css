@@ -208,6 +208,7 @@ main a {
   }
   .top-heading {
     font-size: 0.7rem;
+    padding-bottom: 1px;
   }
   .heading-content {
     padding: 40px;
