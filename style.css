@@ -1,271 +1,274 @@
 /*Fonts*/
 @font-face {
-font-family: 'Lincoln Miller Black';
-src: url('fonts/LincolnMillerB-Black.otf') format('opentype');
-font-display: swap;
+  font-family: "Lincoln Miller Black";
+  src: url("fonts/LincolnMillerB-Black.otf") format("opentype");
+  font-display: swap;
 }
 @font-face {
-font-family: 'Lincoln Proxima Nova Regular';
-src: url('fonts/Lincoln-ProximaNova-Reg.otf') format('opentype');
-font-display: swap;
+  font-family: "Lincoln Proxima Nova Regular";
+  src: url("fonts/Lincoln-ProximaNova-Reg.otf") format("opentype");
+  font-display: swap;
 }
 @font-face {
-font-family: 'Lincoln Proxima Nova Semibold';
-src: url('fonts/Lincoln-ProximaNova-Sbold.otf') format('opentype');
-font-display: swap;
+  font-family: "Lincoln Proxima Nova Semibold";
+  src: url("fonts/Lincoln-ProximaNova-Sbold.otf") format("opentype");
+  font-display: swap;
 }
 /*General Styles*/
 body {
-font-family: 'Lincoln Proxima Nova Regular', Arial, sans-serif;
+  font-family: "Lincoln Proxima Nova Regular", Arial, sans-serif;
 }
 h2 {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 .container {
-margin: 0 auto;
-max-width: 1340px;
-border: 1px solid #000000;
-padding-bottom: 25px;
+  margin: 0 auto;
+  max-width: 1340px;
+  border: 1px solid #000000;
+  padding-bottom: 25px;
 }
 /*Header Styles*/
 .main-heading {
-background-image: url('images/Honest_Digital_Assessment_Desktop.jpg');
-min-height: 470px;
-background-size: cover;
-background-position-x: center;
-background-position-y: 60%;
+  background-image: url("images/Honest_Digital_Assessment_Desktop.jpg");
+  min-height: 470px;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 60%;
 }
 .top-heading {
-font-family: 'Lincoln Proxima Nova Semibold', Arial, sans-serif;
-font-size: 0.8rem;
-text-align: center;
-line-height: 1.2;
-text-transform: uppercase;
-background-color: #efefef;
-padding: 12px 8px;
+  font-family: "Lincoln Proxima Nova Semibold", Arial, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.2;
+  text-transform: uppercase;
+  background-color: #efefef;
+  padding: 12px 8px;
 }
 .heading-content {
-padding-top: 70px;
-padding-left: 90px;
-color: #ffffff;
-letter-spacing: 1px;
+  padding-top: 70px;
+  padding-left: 90px;
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 /*Vehicle Data Styles*/
 .vehicle-intro {
-    font-family: 'Lincoln Proxima Nova Semibold', Arial, sans-serif;
-text-transform: uppercase;
+  font-family: "Lincoln Proxima Nova Semibold", Arial, sans-serif;
+  text-transform: uppercase;
 }
 .vehicle-name {
-font-family: 'Lincoln Miller Black', Arial Black, sans-serif;
-font-size: 3rem;
+  font-family:
+    "Lincoln Miller Black",
+    Arial Black,
+    sans-serif;
+  font-size: 3rem;
 }
 .vehicle-trim {
-font-family: 'Lincoln Proxima Nova Semibold', Arial, sans-serif;
-display: inline-block;
-font-size: 1.1rem;
-margin-top: 5px;
+  font-family: "Lincoln Proxima Nova Semibold", Arial, sans-serif;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-top: 5px;
 }
 /*Lease Data Styles*/
 .lease-label {
-display: inline-block;
-margin-top: 10px;
-margin-bottom: 25px;
-font-size: 1.4rem;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 1.4rem;
 }
 .lease-details {
-display: flex;
-margin-bottom: 35px;
+  display: flex;
+  margin-bottom: 35px;
 }
 .lease-value {
-font-size: 2rem;
+  font-size: 2rem;
 }
 .monthly-payment,
-.lease-term, 
+.lease-term,
 .down-payment {
-text-align: center;
-padding-right: 15px;
-font-weight: bold;
+  text-align: center;
+  padding-right: 15px;
+  font-weight: bold;
 }
-.lease-term, 
+.lease-term,
 .down-payment {
-padding-left: 15px;
-border-left: 1px solid #ffffff;
+  padding-left: 15px;
+  border-left: 1px solid #ffffff;
 }
 .monthly-payment-label,
 .lease-term-label,
 .down-payment-label {
-font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 /*Header Link Styles*/
 .header-links {
-display: flex;
-gap: 10px;
-margin-bottom: 18px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
 }
 .inventory-cta,
 .contact-cta {
-text-transform: uppercase;
-text-decoration: none;
-padding: 11px;
-width: 230px;
-text-align: center;
-font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 11px;
+  width: 230px;
+  text-align: center;
+  font-weight: bold;
 }
 .inventory-cta {
-background-color: #ffffff;
-color: #424d54;
-border-bottom: 3px solid #f36049;
+  background-color: #ffffff;
+  color: #424d54;
+  border-bottom: 3px solid #f36049;
 }
 .contact-cta {
-border: 1px solid #ffffff;
-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 .inventory-cta:hover,
 .contact-cta:hover {
-background-color: #efefef;
-color: #424d54;
-border-bottom: 3px solid #f36049;
+  background-color: #efefef;
+  color: #424d54;
+  border-bottom: 3px solid #f36049;
 }
 .offer-details {
-font-size: .8rem;
-color: #ffffff;
-text-transform: uppercase;
-text-decoration: none;
-border-bottom: 2px solid #f36049;
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px solid #f36049;
 }
 /*Modal Styles*/
 .offer-modal {
-display: none;
-position: fixed;
-top: 30%;
-left: 40%;
-width: 300px;
-padding: 20px;
-border: 1px solid #3b3532;
-color: #efefef;
-background-color: #000000;
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #3b3532;
+  color: #efefef;
+  background-color: #000000;
 }
 .offer-modal ul {
-    line-height: 2;
+  line-height: 2;
 }
 .offer-modal button {
-    margin: 0 auto;
-text-transform: uppercase;
-padding: 11px;
-width: 100%;
-text-align: center;
-font-weight: bold;
-letter-spacing: 1px;
-background-color: #ffffff;
-border: 1px solid #000000;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 11px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
 }
 /**Main Content Styles**/
 main {
-color: #323232;
-padding-top: 27px;
-padding-left: 60px;
-padding-right: 60px;
-line-height: 1.3;
+  color: #323232;
+  padding-top: 27px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 1.3;
 }
 .main-divider {
-border: 0;
-border-top: 1px solid #EDEDED;
+  border: 0;
+  border-top: 1px solid #ededed;
 }
 main h2 {
-margin-bottom: 0;
-margin-top: 30px;
-letter-spacing: 1px;
+  margin-bottom: 0;
+  margin-top: 30px;
+  letter-spacing: 1px;
 }
 main p {
-font-size: 1.1rem;
-margin-left: 7px;
-margin-top: 3px;
-margin-bottom: 3px;
+  font-size: 1.1rem;
+  margin-left: 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 main ul {
-padding-left: 30px;
-margin-top: 2px;
-margin-bottom: 2px;
+  padding-left: 30px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 main a {
-color: #323232;
+  color: #323232;
 }
 /**Mobile Styles**/
 @media (max-width: 768px) {
-/**Mobile General Styles**/
-.container {
-padding-bottom: 10px;
-}
-/**Mobile Heading Styles**/
-.main-heading {
-background-image: url('images/Honest_Digital_Assessment_Mobile.jpg');
-max-height: 1200px;
-text-align: center;
-background-position-y: 40%;
-}
-.top-heading {
-font-size: 0.7rem;
-}
-.heading-content {
-padding: 40px;
-}
-/*Mobile Vehicle Data Styles*/
-.vehicle-intro {
-display: block;
-}
-.vehicle-trim {
-display: block;
-margin-top: 0.1px;
-}
-.lease-details {
-gap: 0;
-justify-content: center;
-}
-.monthly-payment-label,
-.lease-term-label,
-.down-payment-label {
-font-size: 0.7rem;
-letter-spacing: normal;
-}
-.header-links {
-flex-direction: column;
-align-items: center;
-margin-top: 260px;
-}
-.inventory-cta,
-.contact-cta {
-width: 320px;
-padding: 18px;
-}
-.offer-details { 
-margin-left: -240px;
-width: 100%;
-}
-/*Mobile Modal Styles*/
-.offer-modal {
-top: 37%;
-left: 7%;
-}
-.offer-modal-content {
+  /**Mobile General Styles**/
+  .container {
+    padding-bottom: 10px;
+  }
+  /**Mobile Heading Styles**/
+  .main-heading {
+    background-image: url("images/Honest_Digital_Assessment_Mobile.jpg");
+    max-height: 1200px;
+    text-align: center;
+    background-position-y: 40%;
+  }
+  .top-heading {
+    font-size: 0.7rem;
+  }
+  .heading-content {
+    padding: 40px;
+  }
+  /*Mobile Vehicle Data Styles*/
+  .vehicle-intro {
+    display: block;
+  }
+  .vehicle-trim {
+    display: block;
+    margin-top: 0.1px;
+  }
+  .lease-details {
+    gap: 0;
+    justify-content: center;
+  }
+  .monthly-payment-label,
+  .lease-term-label,
+  .down-payment-label {
+    font-size: 0.7rem;
+    letter-spacing: normal;
+  }
+  .header-links {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 260px;
+  }
+  .inventory-cta,
+  .contact-cta {
+    width: 320px;
+    padding: 18px;
+  }
+  .offer-details {
+    margin-left: -240px;
+    width: 100%;
+  }
+  /*Mobile Modal Styles*/
+  .offer-modal {
+    top: 37%;
+    left: 7%;
+  }
+  .offer-modal-content {
     text-align: left;
-}
-/**Mobile Main Content Styles**/
-main {
-padding: 1rem;
-}
-.main-content {
-padding-top: 8px;
-}
-main h2 {
-margin-top: 13px;
-margin-bottom: 12px;
-}
-main p {
-margin-left: 0;
-font-size: 0.9rem;
-}
-main ul {
-font-size: 0.9rem;
-padding-left: 30px;
-}
+  }
+  /**Mobile Main Content Styles**/
+  main {
+    padding: 1rem;
+  }
+  .main-content {
+    padding-top: 8px;
+  }
+  main h2 {
+    margin-top: 13px;
+    margin-bottom: 12px;
+  }
+  main p {
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+  main ul {
+    font-size: 0.9rem;
+    padding-left: 30px;
+  }
 }
