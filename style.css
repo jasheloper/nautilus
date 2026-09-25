@@ -239,10 +239,10 @@ main a {
   .inventory-cta,
   .contact-cta {
     max-width: 330px;
-    padding: 18px;
+    /* padding: 14px; */
   }
   .offer-details {
-    margin-left: -153px;
+    margin-left: -136px;
     width: 100%;
   }
   /*Mobile Modal Styles*/
