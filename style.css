@@ -117,7 +117,7 @@ h2 {
 .inventory-cta {
   background-color: #efefef;
   color: #424d54;
-  border-bottom: 3px solid #f36049;
+  border-bottom: 2px solid #f36049;
 }
 .contact-cta {
   border: 1px solid #ffffff;
@@ -127,7 +127,7 @@ h2 {
 .contact-cta:hover {
   background-color: #efefef;
   color: #424d54;
-  border-bottom: 3px solid #f36049;
+  border-bottom: 2px solid #f36049;
 }
 .offer-details {
   font-size: 0.8rem;
