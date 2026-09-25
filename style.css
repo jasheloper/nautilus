@@ -142,8 +142,8 @@ border-bottom: 2px solid #f36049;
 .offer-modal {
 display: none;
 position: fixed;
-    top: 30%;
-    left: 40%;
+top: 30%;
+left: 40%;
 width: 300px;
 padding: 20px;
 border: 1px solid #3b3532;
@@ -245,7 +245,7 @@ width: 100%;
 }
 .offer-modal {
 top: 49%;
-left: 20%;
+left: 7%;
 }
 .offer-modal-content {
     text-align: left;
