@@ -142,7 +142,7 @@ h2 {
   position: fixed;
   top: 30%;
   left: 40%;
-  width: 300px;
+  width: 260px;
   padding: 20px;
   border: 1px solid #3b3532;
   color: #efefef;
@@ -238,11 +238,11 @@ main a {
   }
   .inventory-cta,
   .contact-cta {
-    width: 300px;
+    max-width: 330px;
     padding: 18px;
   }
   .offer-details {
-    margin-left: -240px;
+    margin-left: -160px;
     width: 100%;
   }
   /*Mobile Modal Styles*/
