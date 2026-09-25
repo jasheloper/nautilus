@@ -30,8 +30,8 @@ padding-bottom: 25px;
 }
 /*Header Styles*/
 .main-heading {
-min-height: 470px;
 background-image: url('images/Honest_Digital_Assessment_Desktop.jpg');
+min-height: 470px;
 background-size: cover;
 background-position-x: center;
 background-position-y: 60%;
@@ -149,15 +149,15 @@ line-height: 1.3;
 }
 .main-divider {
 border: 0;
-border-top: 1px solid #efefef;
+border-top: 1px solid #EDEDED;
 }
-.main-content h2 {
+main h2 {
 margin-bottom: 0;
 margin-top: 30px;
 letter-spacing: 1px;
 }
 
-.main-content p {
+main p {
 font-size: 1.1rem;
 margin-top: 0;
 margin-left: 7px;
@@ -172,10 +172,14 @@ margin-bottom: 2px;
 }
 /**Mobile Styles**/
 @media (max-width: 768px) {
+    .container {
+padding-bottom: 0;
+}
 .main-heading {
 background-image: url('images/Honest_Digital_Assessment_Mobile.jpg');
+max-height: 1200px;
 text-align: center;
-max-height: 900px;
+background-position-y: 40px;
 }
 .top-heading {
     font-size: 0.7rem;
@@ -209,5 +213,18 @@ margin-top: 260px;
 }
 .offer-details { 
 margin-right: 140px;
+}
+main {
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+main h2 {
+    margin-top: 10px;
+ padding-bottom: 16px;
+}
+main p {
+margin-left: 0;
+padding-bottom: 10px;
 }
 }
