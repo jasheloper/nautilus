@@ -1,0 +1,194 @@
+/*Fonts*/
+@font-face {
+font-family: 'Lincoln Miller Black';
+src: url('fonts/LincolnMillerB-Black.otf') format('opentype');
+font-display: swap;
+}
+@font-face {
+font-family: 'Lincoln Proxima Nova Regular';
+src: url('fonts/Lincoln-ProximaNova-Reg.otf') format('opentype');
+font-display: swap;
+}
+@font-face {
+font-family: 'Lincoln Proxima Nova Semibold';
+src: url('fonts/Lincoln-ProximaNova-Sbold.otf') format('opentype');
+font-display: swap;
+}
+/*General Styles*/
+body {
+/* font-family: 'Inter', Arial, sans-serif; */
+font-family: 'Lincoln Proxima Nova Regular', Arial, sans-serif;
+}
+h2 {
+text-transform: uppercase;
+}
+.container {
+margin: 0 auto;
+max-width: 1340px;
+border: 1px solid #000000;
+padding-bottom: 25px;
+}
+/*Header Styles*/
+.main-heading {
+min-height: 470px;
+background-image: url('images/Honest_Digital_Assessment_Desktop.jpg');
+background-size: cover;
+background-position-x: center;
+background-position-y: 60%;
+}
+
+.top-heading {
+font-family: 'Lincoln Proxima Nova Semibold', Arial, sans-serif;
+font-size: 0.8rem;
+text-align: center;
+line-height: 1.2;
+text-transform: uppercase;
+background-color: #efefef;
+padding: 4px 8px;
+}
+
+.heading-content {
+padding-top: 70px;
+padding-left: 90px;
+color: #ffffff;
+letter-spacing: 1px;
+}
+
+/*Vehicle Data Styles*/
+.vehicle-intro {
+text-transform: uppercase;
+}
+.vehicle-name {
+font-family: 'Lincoln Miller Black', Arial Black, sans-serif;
+font-size: 3rem;
+}
+.vehicle-trim {
+display: inline-block;
+font-size: 1.1rem;
+margin-top: 5px;
+}
+
+/*Lease Data Styles*/
+.lease-label {
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 25px;
+font-size: 1.5rem;
+
+}
+.lease-details {
+display: flex;
+margin-bottom: 35px;
+}
+.lease-value {
+font-size: 2rem;
+}
+.monthly-payment,
+.lease-term, 
+.down-payment {
+text-align: center;
+padding-right: 15px;
+font-weight: bold;
+}
+
+.lease-term, 
+.down-payment {
+padding-left: 15px;
+border-left: 1px solid #ffffff;
+}
+.monthly-payment-label,
+.lease-term-label,
+.down-payment-label {
+font-size: 0.8rem;
+}
+
+/*Header Link Styles*/
+.header-links {
+display: flex;
+gap: 10px;
+margin-bottom: 18px;
+}
+.inventory-cta,
+.contact-cta {
+text-transform: uppercase;
+text-decoration: none;
+padding: 11px;
+width: 230px;
+text-align: center;
+font-weight: bold;
+}
+.inventory-cta {
+background-color: #ffffff;
+color: #424d54;
+border-bottom: 2px solid #f36049;
+}
+.contact-cta {
+border: 1px solid #ffffff;
+color: #ffffff;
+}
+.inventory-cta:hover,
+.contact-cta:hover {
+background-color: #efefef;
+color: #424d54;
+border-bottom: 2px solid #f36049;
+}
+.offer-details {
+font-size: .8rem;
+color: #ffffff;
+text-transform: uppercase;
+text-decoration: none;
+border-bottom: 2px solid #f36049;
+}
+/**Main Content**/
+main {
+color: #323232;
+padding-top: 20px;
+padding-left: 60px;
+padding-right: 60px;
+line-height: 1.3;
+}
+.main-divider {
+border: 0;
+border-top: 1px solid #efefef;
+}
+.main-content h2 {
+margin-bottom: 0;
+margin-top: 30px;
+letter-spacing: 1px;
+}
+
+.main-content p {
+font-size: 1.1rem;
+margin-top: 0;
+margin-left: 7px;
+}
+main a {
+color: #323232;
+}
+main ul {
+padding-left: 30px;
+margin-top: -13px;
+margin-bottom: 2px;
+}
+/**Mobile Styles**/
+@media (max-width: 768px) {
+.main-heading {
+background-image: url('images/Honest_Digital_Assessment_Mobile.jpg');
+text-align: center;
+max-height: 900px;
+}
+.heading-content {
+padding: 40px;
+}
+.header-links {
+flex-direction: column;
+align-items: center;
+margin-top: 260px;
+}
+.lease-details {
+   justify-content: center;
+}
+.offer-details { 
+margin-right: 140px;
+}
+}
